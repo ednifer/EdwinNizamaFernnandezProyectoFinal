@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>¡Programacion divertida!</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="imagenes/logo.jpg" alt="Programación divertida">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cursos.html">Cursos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactanos.html">Contáctanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sesion.html">Inicio sesión</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <p class="h1">Información de contacto</p>
+            <div class="row">
+                <div class="col">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombres y apellidos</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="escriba sus nombres y apellidos">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Número de contacto</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="escriba su número de celular">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                </div>
+                <p class="h2">Cursos de interés</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Mi primera página web
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Aprender JavaScript
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Aprender Python
+                    </label>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Déjanos tus consultas sobre los cursos</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <p class="h2">Cómo te entereaste de nuestros cursos</p>
+                <select class="form-select" aria-label="Default select example">
+                <option selected>Facebook</option>
+                <option value="1">Youtube</option>
+                <option value="2">Búsqueda en web</option>
+                <option value="3">Un amigo me refirió</option>
+                </select>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Enviar
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Envío de datos</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        Se enviará su Información
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Regresar</button>
+                        <button type="button" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+  
+          </div>
+          <div class="col">
+            <h1>Preguntas frecuentes</h1>
+            <p class="h2">¿Las clases son recuperables?</p>
+            <p class="lh-sm">Si el alumno/a necesita ayuda adicional en su proceso de aprendizaje, se coordinará con el tutor/a para enviarle material de apoyo audiovisual. Sin embargo, las clases no son recuperables.</p>
+            <p class="h2">¿Las clases son grabadas?</p>
+            <p class="lh-sm">Las clases se desarrollan vía zoom. Todas las clases son grabadas para tener registro de ellas, sin embargo no pueden ser compartidas debido a las políticas de privacidad.</p>
+          </div>
+        </div>
+    </div> 
+    <div class="container-fluid">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+          <li class="breadcrumb-item"><a href="cursos.html">Cursos</a></li>
+          <li class="breadcrumb-item"><a href="blog.html">Blog</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Contáctanos</li>
+          <li class="breadcrumb-item"><a href="sesion.html">Inicio sesión</a></li>
+        </ol>
+      </nav>
+    </div>  
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <a href="https://es-la.facebook.com/"target="_blank" rel="noopener noreferrer"><img src="imagenes/facebook.svg" class="rounded-circle"></a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <a href="https://www.youtube.com/"target="_blank" rel="noopener noreferrer"><img src="imagenes/youtube.png"></a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <a href="https://twitter.com/?lang=es"target="_blank" rel="noopener noreferrer"><img src="imagenes/gorjeo.png"></a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <a href="https://web.telegram.org/k/"target="_blank" rel="noopener noreferrer"><img src="imagenes/telegrama.png"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

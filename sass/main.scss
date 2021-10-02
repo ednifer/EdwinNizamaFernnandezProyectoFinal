@@ -1,0 +1,13 @@
+@import"reset";
+@import"tipoLetra";
+@import"botonera";
+@import"redesSociales";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+article{
+    img{
+        width: 100%;
+    }
+}
+
